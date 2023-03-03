@@ -1,4 +1,5 @@
 const app = require('express')()
+require('dotenv').config()
 const { name } = require('../package.json')
 const PORT = process.env.PORT || 1337
 const api = require('./api')

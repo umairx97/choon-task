@@ -1,0 +1,829 @@
+[
+    {
+      "id": 2056423113,
+      "title": "Anamnesis",
+      "data": {
+        "question": {
+          "chapterName": "Anamnesis",
+          "chapterType": "interview",
+          "chapterQuestion": "Which questions would you like to ask this patient?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Anamnesis-icon.svg",
+          "bannerImage": "Anamnesis-banner.png",
+          "menuImage": "Anamnesis-menu.png",
+          "useCategory": false
+        },
+        "answers": {
+          "General": [
+            {
+              "id": "Anamnesis_12",
+              "Polling": false,
+              "Category": "General",
+              "Question": "How old are you?",
+              "Answer": "74 years old"
+            },
+            {
+              "id": "Anamnesis_17",
+              "Polling": true,
+              "Category": "General",
+              "Question": "Where do you live?",
+              "Answer": "I live in Vienna"
+            }
+          ],
+          "Chief Compliant": [
+            {
+              "id": "Anamnesis_18",
+              "Polling": false,
+              "Category": "Chief Compliant",
+              "Question": "What problems have brought you here today?",
+              "Answer": "I have heart palpitations"
+            }
+          ],
+          "Medical history": [
+            {
+              "id": "Anamnesis_19",
+              "Polling": false,
+              "Category": "Medical history",
+              "Question": "Do you have another disease?",
+              "Answer": "I have kidney disease, diabetes type 2, high cholesterol"
+            },
+            {
+              "id": "Anamnesis_23",
+              "Polling": false,
+              "Category": "Medical history",
+              "Question": "Have you ever had Holter monitoring ? Was AF found in it ?",
+              "Answer": "24 hour Holter was done 2x, AF was not confirmed"
+            },
+            {
+              "id": "Anamnesis_24",
+              "Polling": false,
+              "Category": "Medical history",
+              "Question": "Do you have high cholesterol ?",
+              "Answer": "Yes, on statin, rosuvastatin 1 x20 mg"
+            }
+          ],
+          "Family history": [
+            {
+              "id": "Anamnesis_25",
+              "Polling": false,
+              "Category": "Family history",
+              "Question": "Does anyone in your family have a serious illness?",
+              "Answer": "Not that I know of"
+            }
+          ]
+        },
+        "answersCategories": [
+          "Category",
+          "Question",
+          "Answer"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Category",
+          "Question",
+          "Answer"
+        ]
+      }
+    },
+    {
+      "id": 1022599131,
+      "title": "Physical Examination",
+      "data": {
+        "question": {
+          "chapterName": "Physical Examination",
+          "chapterType": "imageInteractive",
+          "chapterQuestion": "Which physical examination would you like to perform on this patient?",
+          "templateType": "QUESTION-PHYS EXAM-ADD''L EXAM",
+          "icon": "Physical Examination-icon.svg",
+          "bannerImage": "Physical Examination-banner.png",
+          "menuImage": "Physical Examination-menu.png"
+        },
+        "physical": {
+          "INSPECTION": [
+            {
+              "id": "Physical_Examination_11",
+              "Polling": false,
+              "Category": "INSPECTION",
+              "Front/Back": "Front",
+              "Physical Exam": "Eye",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_12",
+              "Polling": false,
+              "Category": "INSPECTION",
+              "Front/Back": "Front",
+              "Physical Exam": "Ear",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_13",
+              "Polling": false,
+              "Category": "INSPECTION",
+              "Front/Back": "Front",
+              "Physical Exam": "Tongue",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_14",
+              "Polling": true,
+              "Category": "INSPECTION",
+              "Front/Back": "Front",
+              "Physical Exam": "Hand",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_15",
+              "Polling": false,
+              "Category": "INSPECTION",
+              "Front/Back": "Front",
+              "Physical Exam": "Foot",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_16",
+              "Polling": true,
+              "Category": "INSPECTION",
+              "Front/Back": "Back",
+              "Physical Exam": "Waist",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            }
+          ],
+          "PALPATION": [
+            {
+              "id": "Physical_Examination_17",
+              "Polling": false,
+              "Category": "PALPATION",
+              "Front/Back": "Back",
+              "Physical Exam": "Wrist",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_18",
+              "Polling": false,
+              "Category": "PALPATION",
+              "Front/Back": "Back",
+              "Physical Exam": "Back",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_19",
+              "Polling": false,
+              "Category": "PALPATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Abdomen",
+              "Side": "Both or N/A",
+              "Observation": "No hepatomegaly and no splenomegaly",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_20",
+              "Polling": false,
+              "Category": "PALPATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Neck",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_21",
+              "Polling": false,
+              "Category": "PALPATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Foot",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            }
+          ],
+          "PERCUSSION": [
+            {
+              "id": "Physical_Examination_22",
+              "Polling": false,
+              "Category": "PERCUSSION",
+              "Front/Back": "Front",
+              "Physical Exam": "Abdomen",
+              "Side": "Both or N/A",
+              "Observation": "Traube open",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_23",
+              "Polling": false,
+              "Category": "PERCUSSION",
+              "Front/Back": "Back",
+              "Physical Exam": "Genitourinary",
+              "Side": "Left",
+              "Observation": "Normal",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_24",
+              "Polling": true,
+              "Category": "PERCUSSION",
+              "Front/Back": "Back",
+              "Physical Exam": "Genitourinary",
+              "Side": "Right",
+              "Observation": "Normal",
+              "IMAGE": ""
+            }
+          ],
+          "AUSCULTATION": [
+            {
+              "id": "Physical_Examination_25",
+              "Polling": false,
+              "Category": "AUSCULTATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Chest",
+              "Side": "Left",
+              "Observation": "S1, S2 arrhythmic, no additional sound, no murmur",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_26",
+              "Polling": false,
+              "Category": "AUSCULTATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Chest",
+              "Side": "Right",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_27",
+              "Polling": false,
+              "Category": "AUSCULTATION",
+              "Front/Back": "Back",
+              "Physical Exam": "Lungs",
+              "Side": "Both or N/A",
+              "Observation": "Breathing sounds are natural",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_28",
+              "Polling": false,
+              "Category": "AUSCULTATION",
+              "Front/Back": "Front",
+              "Physical Exam": "Abdomen",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            }
+          ],
+          "FUNCTIONAL": [
+            {
+              "id": "Physical_Examination_29",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Front",
+              "Physical Exam": "Wrist",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_30",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Front",
+              "Physical Exam": "Neck",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_31",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Front",
+              "Physical Exam": "Shoulder",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_32",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Front",
+              "Physical Exam": "Ankle",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_33",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Front",
+              "Physical Exam": "Knee",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_34",
+              "Polling": false,
+              "Category": "FUNCTIONAL",
+              "Front/Back": "Back",
+              "Physical Exam": "Waist",
+              "Side": "Both or N/A",
+              "Observation": "Normal findings",
+              "IMAGE": ""
+            }
+          ]
+        },
+        "physicalCategories": [
+          "Category",
+          "Front/Back",
+          "Physical Exam",
+          "Side",
+          "Observation",
+          "IMAGE"
+        ],
+        "physicalCategoriesPolling": [
+          "Polling",
+          "Category",
+          "Front/Back",
+          "Physical Exam",
+          "Side",
+          "Observation",
+          "IMAGE"
+        ],
+        "additional": {
+          "ADDITIONAL EXAM": [
+            {
+              "id": "Physical_Examination_40",
+              "Polling": true,
+              "Category": "ADDITIONAL EXAM",
+              "Front/Back": "N/A",
+              "Physical Exam": "Pulse",
+              "Side": "Both or N/A",
+              "Observation": "Completely irregular 94-100/min",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_41",
+              "Polling": true,
+              "Category": "ADDITIONAL EXAM",
+              "Front/Back": "N/A",
+              "Physical Exam": "Blood Pressure",
+              "Side": "Both or N/A",
+              "Observation": "130/85 mmHg",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_42",
+              "Polling": true,
+              "Category": "ADDITIONAL EXAM",
+              "Front/Back": "N/A",
+              "Physical Exam": "BMI",
+              "Side": "Both or N/A",
+              "Observation": "24,5 kg / m²",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_43",
+              "Polling": true,
+              "Category": "ADDITIONAL EXAM",
+              "Front/Back": "N/A",
+              "Physical Exam": "Body Temperature",
+              "Side": "Both or N/A",
+              "Observation": "36 ° C",
+              "IMAGE": ""
+            },
+            {
+              "id": "Physical_Examination_44",
+              "Polling": true,
+              "Category": "ADDITIONAL EXAM",
+              "Front/Back": "N/A",
+              "Physical Exam": "Weight",
+              "Side": "Both or N/A",
+              "Observation": "61 kg",
+              "IMAGE": ""
+            }
+          ]
+        },
+        "additionalCategories": [
+          "Category",
+          "Front/Back",
+          "Physical Exam",
+          "Side",
+          "Observation",
+          "IMAGE"
+        ],
+        "additionalCategoriesPolling": [
+          "Polling",
+          "Category",
+          "Front/Back",
+          "Physical Exam",
+          "Side",
+          "Observation",
+          "IMAGE"
+        ]
+      }
+    },
+    {
+      "id": 915284971,
+      "title": "Laboratory",
+      "data": {
+        "question": {
+          "chapterName": "Laboratory",
+          "chapterType": "groups",
+          "chapterQuestion": "Which lab results would you like to see from this patient?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Lab-icon.svg",
+          "bannerImage": "Lab-banner.png",
+          "menuImage": "Lab-menu.png",
+          "haveSelectAll": "YES",
+          "useCategory": false
+        },
+        "answers": {
+          "Biochemistry": [
+            {
+              "id": "Laboratory_12",
+              "Polling": true,
+              "Category": "Biochemistry",
+              "Lab Test": "ALT",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_43",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Potassium",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_44",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Prealbumin",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_45",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Total Cholesterol",
+              "Result": "194 mg/dL",
+              "Normal Value": "<200 mg/dL"
+            },
+            {
+              "id": "Laboratory_46",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Total Bilirubin",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_47",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Total Protein",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_48",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Triglyceride",
+              "Result": "155 mg/dL",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_49",
+              "Polling": false,
+              "Category": "Biochemistry",
+              "Lab Test": "Uric Acid",
+              "Result": "Normal",
+              "Normal Value": ""
+            }
+          ],
+          "Urine Tests": [
+            {
+              "id": "Laboratory_50",
+              "Polling": false,
+              "Category": "Urine Tests",
+              "Lab Test": "Urine-Amylase",
+              "Result": "Normal",
+              "Normal Value": ""
+            },
+            {
+              "id": "Laboratory_58",
+              "Polling": false,
+              "Category": "Urine Tests",
+              "Lab Test": "Urine Microscopy",
+              "Result": "Normal",
+              "Normal Value": ""
+            }
+          ],
+          "Blood Count": [
+            {
+              "id": "Laboratory_59",
+              "Polling": false,
+              "Category": "Blood Count",
+              "Lab Test": "PLT",
+              "Result": "264",
+              "Normal Value": "150-450"
+            }
+          ]
+        },
+        "answersCategories": [
+          "Category",
+          "Lab Test",
+          "Result",
+          "Normal Value"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Category",
+          "Lab Test",
+          "Result",
+          "Normal Value"
+        ]
+      }
+    },
+    {
+      "id": 1305666924,
+      "title": "Radiology",
+      "data": {
+        "question": {
+          "chapterName": "Radiology",
+          "chapterType": "groups",
+          "chapterQuestion": "Which radiology results would you like to see from this patient?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Radiology-icon.svg",
+          "bannerImage": "Radiology-banner.png",
+          "menuImage": "Radiology-menu.png"
+        },
+        "answers": {
+          "Direct Graph": [
+            {
+              "id": "Radiology_11",
+              "Polling": true,
+              "Category": "Direct Graph",
+              "Radiology Test": "Lung X-ray",
+              "Result": "Normal findings",
+              "IMAGE": ""
+            }
+          ],
+          "ECHO": [
+            {
+              "id": "Radiology_12",
+              "Polling": true,
+              "Category": "ECHO",
+              "Radiology Test": "ECHO",
+              "Result": "EF 45% probably due to tachycardiomyopathy , left atrium enlarged 4,5 cm",
+              "IMAGE": ""
+            }
+          ],
+          "ECG": [
+            {
+              "id": "Radiology_13",
+              "Polling": true,
+              "Category": "ECG",
+              "Radiology Test": "Current ECG",
+              "Result": "",
+              "IMAGE": "EKG.png"
+            },
+            {
+              "id": "Radiology_14",
+              "Polling": false,
+              "Category": "ECG",
+              "Radiology Test": "Prior stroke ECG",
+              "Result": "Sinus rhythm",
+              "IMAGE": ""
+            }
+          ],
+          "CT": [
+            {
+              "id": "Radiology_15",
+              "Polling": false,
+              "Category": "CT",
+              "Radiology Test": "Cranial CT scan",
+              "Result": "Preexisting ischaemic stroke",
+              "IMAGE": "CT.png"
+            }
+          ]
+        },
+        "answersCategories": [
+          "Category",
+          "Radiology Test",
+          "Result",
+          "IMAGE"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Category",
+          "Radiology Test",
+          "Result",
+          "IMAGE"
+        ]
+      }
+    },
+    {
+      "id": 2122132805,
+      "title": "Score",
+      "data": {
+        "question": {
+          "chapterName": "Score",
+          "chapterType": "noGroups",
+          "chapterQuestion": "Which scores would you like to see from this patient?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Score-icon.svg",
+          "bannerImage": "Score-banner.png",
+          "menuImage": "Score-menu.png"
+        },
+        "answers": [
+          {
+            "id": "Score_11",
+            "Polling": true,
+            "Score": "***None",
+            "IMAGE": ""
+          },
+          {
+            "id": "Score_12",
+            "Polling": true,
+            "Score": "CHA2DS2–VASc score",
+            "IMAGE": "score1.png"
+          },
+          {
+            "id": "Score_13",
+            "Polling": true,
+            "Score": "HAS-BLED",
+            "IMAGE": "score2.png"
+          }
+        ],
+        "answersCategories": [
+          "Score",
+          "IMAGE"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Score",
+          "IMAGE"
+        ]
+      }
+    },
+    {
+      "id": 373344162,
+      "title": "Question Set 1",
+      "data": {
+        "question": {
+          "chapterName": "Question Set 1",
+          "chapterType": "multipleChoice",
+          "chapterQuestion": "At this stage, which patient characteristics need to be taken into consideration when considering NOAC therapy for this patient?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Question1-icon.svg",
+          "bannerImage": "Question1-banner.png",
+          "menuImage": "Question1-menu.png",
+          "haveSelectAll": "NO",
+          "allowWriteIns": "NO"
+        },
+        "answers": [
+          {
+            "id": "Question_Set_1_12",
+            "value": "Patient age: patient is 74 years old",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_1_13",
+            "value": "Renal function: patient has mild renal impairment",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_1_14",
+            "value": "Prior stroke: patient has had a previous stroke",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_1_15",
+            "value": "Diabetes type 2 ",
+            "polling": true
+          }
+        ],
+        "answersCategories": [
+          "Options"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Options"
+        ]
+      }
+    },
+    {
+      "id": 184313424,
+      "title": "Treatment",
+      "data": {
+        "question": {
+          "chapterName": "Treatment",
+          "chapterType": "multipleChoice",
+          "chapterQuestion": "What treatment would you advise for this patient at this moment?",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Treatment-icon.svg",
+          "bannerImage": "Treatment-banner.png",
+          "menuImage": "Treatment-menu.png",
+          "haveSelectAll": "NO",
+          "allowWriteIns": "YES"
+        },
+        "answers": [
+          {
+            "id": "Treatment_12",
+            "value": "Aspirin 1x75 mg withdrawn",
+            "polling": true
+          },
+          {
+            "id": "Treatment_13",
+            "value": "Aspirin 1x 75 mg continued",
+            "polling": true
+          },
+          {
+            "id": "Treatment_27",
+            "value": "Ablation of AF, pulmonary vein isolation after failure of propafenon",
+            "polling": false
+          }
+        ],
+        "answersCategories": [
+          "Options"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Options"
+        ]
+      }
+    },
+    {
+      "id": 913518644,
+      "title": "Question Set 2",
+      "data": {
+        "question": {
+          "chapterName": "Question Set 2",
+          "chapterType": "ranking",
+          "chapterQuestion": "How would you rank the importance of the factors below when choosing OAC therapy for your patient at this stage? \n(position 1: most important;  position 4: least important)",
+          "templateType": "QUESTION-ANSWERS",
+          "icon": "Question2-icon.svg",
+          "bannerImage": "Question2-banner.png",
+          "menuImage": "Question2-menu.png",
+          "haveSelectAll": "NO",
+          "allowWriteIns": "NO"
+        },
+        "answers": [
+          {
+            "id": "Question_Set_2_12",
+            "value": "Availability of a specific reversal agent",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_2_13",
+            "value": "Safety and effectiveness in the real world",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_2_14",
+            "value": "Patient characteristics & comorbidities (including clearance issues)",
+            "polling": true
+          },
+          {
+            "id": "Question_Set_2_15",
+            "value": "Safety and efficacy in RCTs",
+            "polling": false
+          },
+          {
+            "id": "Question_Set_2_18",
+            "value": " ",
+            "polling": false
+          }
+        ],
+        "answersCategories": [
+          "Options"
+        ],
+        "answersCategoriesPolling": [
+          "Polling",
+          "Options"
+        ]
+      }
+    }
+  ]
