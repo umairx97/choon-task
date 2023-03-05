@@ -1,0 +1,20 @@
+.heading {
+    background-color: #FFC000;
+    width: max-content;
+}
+
+.questionTitle {
+    background-color: #deeafc;
+}
+
+.answerHeading {
+    background-color: #d8d8d8;
+}
+
+.questionText {
+    background-color: #fef2cb;
+}
+
+.textDanger {
+    color: red;
+}
