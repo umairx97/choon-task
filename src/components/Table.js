@@ -11,14 +11,12 @@ export default function Table () {
   const data = useRouteLoaderData('root')
 
   const { chapterId } = useParams()
-  const [currentChapter, setCurrentChapter] = useState({})
+  const [currentChapter, setCurrentChapter] = useState(data[0])
 
   useEffect(() => {
-    if (chapterId) {
-      setCurrentChapter(
-        data?.find((chapter) => chapter.id.toString() === chapterId)
-      )
-    }
+    setCurrentChapter(
+      data?.find((chapter) => chapter.id.toString() === chapterId)
+    )
   }, [chapterId, data])
 
   const getQuestionData = useCallback(() => {
@@ -27,7 +25,10 @@ export default function Table () {
       const {
         data: { question }
       } = item
-      if (question && question.chapterName === currentChapter?.title) {
+
+      const hasQuestion = question?.chapterName === currentChapter.title
+
+      if (hasQuestion) {
         Object.keys(question).forEach((q) => {
           questionData.push({
             question: q,
