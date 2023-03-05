@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 1337
 const api = require('./api')
 const middlewares = require('./middlewares')
 
+app.use('*', middlewares.cors)
 app.use(middlewares.bodyParser.json({ extended: true }))
-app.use(middlewares.cors)
 app.use(middlewares.logger)
 
 app.get('/sheets-data', api.getSheetData)
