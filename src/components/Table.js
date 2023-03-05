@@ -1,13 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useRouteLoaderData } from 'react-router-dom'
 
 import QuestionTable from './QuestionTable'
 import AnswerTable from './AnswerTable'
 
 import styles from './table.module.css'
 
-function Table (props) {
-  const { data } = props
+export default function Table () {
+  /* This function will get the data that is prefetched on the root component */
+  const data = useRouteLoaderData('root')
 
   const { chapterId } = useParams()
   const [currentChapter, setCurrentChapter] = useState({})
@@ -58,5 +59,3 @@ function Table (props) {
     </div>
   )
 }
-
-export default Table

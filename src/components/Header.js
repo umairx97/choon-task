@@ -1,15 +1,14 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 
-function Header ({ data }) {
-  const navigate = useNavigate()
+function Header () {
+  const data = useLoaderData()
   return (
     <div>
       {data?.map((chapter) => (
         <Link
           key={chapter.id}
-          to={`/table/${chapter.id}`}
+          to={`chapter/${chapter.id}`}
           className='font-bold mx-4 underline'
-          onClick={() => navigate(`/table/${chapter.id}`)}
         >
           {chapter.title}
         </Link>
